@@ -1,11 +1,12 @@
+import React from 'react'
 import Header from '../../components/template/Header'
-import Custumer from  '../../components/Customer/Customer'
+import Customer from  '../../components/Customer/Customer'
 
-function ListCustomer() {
+function ListCustomer(props) {
   return (
     <>
     <Header />
-    <Custumer/>
+    <Customer/>
     </>
   );
 }

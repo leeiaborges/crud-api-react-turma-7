@@ -7,7 +7,7 @@ import {
     Alert,Form
 } from 'react-bootstrap'
 
-function CustumerList(props) {
+function CustomerList(props) {
 
     const Customers = props.Customers || []
 
@@ -184,4 +184,4 @@ function CustumerList(props) {
     )
 }
 
-export default CustumerList
+export default CustomerList
